@@ -19,14 +19,20 @@ public class StringCalculator {
         System.out.println("입력 값 = " + value);
 
         String[] values = value.split(" ");
-
+        // 5A+A10A+A15 -> value.split("A");
+        // 5
+        // +
+        // 10
+        // +zxcvzcxv
+        // 15
         int first = Integer.parseInt(values[0]);
         System.out.println("first = " + first);
 
-        int result = first;
+        int result = first; // 5
 
-        for(int i = 1; i < values.length; i = i + 2) {
-            String symbol = values[i];
+        // [ 5, +, 10, + , 15]
+        for(int i = 1 ; i < values.length; i = i + 2) {
+            String symbol = values[i];  // +
             System.out.println("symbol = " + symbol);
 
             int second = Integer.parseInt(values[i + 1]);
@@ -34,6 +40,8 @@ public class StringCalculator {
             //4
             result = CalculatorMethod.calculate(result, symbol, second);
         }
+
         CalculatorMethod.print(result);
     }
+
 }
