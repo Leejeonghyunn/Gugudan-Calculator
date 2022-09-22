@@ -35,5 +35,6 @@ public class Mission2 {
                 break; //do-while문을 벗어난다
             }
         } while(true); //do-while 무한반복문
+        sc.close();
     }
 }
