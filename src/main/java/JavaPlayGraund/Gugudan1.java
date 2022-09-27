@@ -1,3 +1,5 @@
+package JavaPlayGraund;
+
 public class Gugudan1 {
 
     public static int[] calculate(int times) {

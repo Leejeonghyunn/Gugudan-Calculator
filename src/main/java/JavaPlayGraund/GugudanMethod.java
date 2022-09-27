@@ -1,3 +1,5 @@
+package JavaPlayGraund;
+
 public class GugudanMethod {
 
     public static int[] calculate(int times) { //int times - 입력값, int[] - 반환값

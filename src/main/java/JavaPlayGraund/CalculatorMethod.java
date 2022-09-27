@@ -1,3 +1,5 @@
+package JavaPlayGraund;
+
 import java.util.Scanner;
 
 /**

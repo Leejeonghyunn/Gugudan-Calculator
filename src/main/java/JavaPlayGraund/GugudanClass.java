@@ -1,3 +1,4 @@
+package JavaPlayGraund;
 
 public class GugudanClass { //클래스로 분리
 

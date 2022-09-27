@@ -20,12 +20,13 @@ public class Mission5_2 {
         }
         //무한반복문
         while (true){
+            //행과 열의 입력값 받기
             System.out.println("행 인덱스 입력 >> ");
             row = sc.nextInt();
             System.out.println("열 인덱스 입력 >> ");
             column = sc.nextInt();
 
-            //행과 열의 좌표에서 5를 넘어선 안된다
+            //유효성 검사 : 행과 열의 좌표에서 5를 넘어선 안된다
             if (row > 0 && row < 6 && column > 0 && column <6) {
                 arr[row][column] = "X";
 
